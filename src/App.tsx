@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import {Todolist} from "./Todolist";
+import {TaskType, Todolist} from "./Todolist";
 
 
 
 export function App() {
 
-    let tasks1 = [
+    let tasks1: TaskType[] = [
         {id: 1, title: 'CSS', isDone: true},
         {id: 2, title: 'JS', isDone: true},
         {id: 3, title: 'React', isDone: false},
     ];
 
-    let tasks2 = [
+    let tasks2: TaskType[] = [
         {id: 1, title: 'Terminator', isDone: true},
         {id: 2, title: 'XXX', isDone: false},
         {id: 3, title: 'Gentlemen of fortune', isDone: true},
