@@ -8,8 +8,8 @@ export function App() {
 
     let tasks1 = [
         {id: 1, title: 'CSS', isDone: true},
-        {id: 2, title: 'JS', isDone: false},
-        {id: 3, title: 'React', isDone: true},
+        {id: 2, title: 'JS', isDone: true},
+        {id: 3, title: 'React', isDone: false},
     ];
 
     let tasks2 = [
@@ -22,8 +22,8 @@ export function App() {
 
     return (
         <div className="App">
-            <Todolist title={"What to learn"}/>
-            <Todolist title={"Movies"}/>
+            <Todolist title={"What to learn"} tasks={tasks1}/>
+            <Todolist title={"Movies"} tasks={tasks2}/>
 
             
         </div>
