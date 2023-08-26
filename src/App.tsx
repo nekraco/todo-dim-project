@@ -8,8 +8,10 @@ export function App() {
 
     return (
         <div className="App">
-            <Todolist/>
-
+            <Todolist title={"What to learn"}/>
+            <Todolist title={"Movies"}/>
+            <Todolist title={"Songs"}/>
+            
         </div>
     );
 }
