@@ -1,6 +1,11 @@
 import React from "react";
 
-export function Todolist(props: any) {
+
+type PropsType = {
+    title: string
+}
+
+export function Todolist(props: PropsType) {
 
     return (
         <div>
